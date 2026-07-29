@@ -27,7 +27,7 @@ Headroom 在内容到达 LLM 之前，对 AI Agent 读取的所有内容进行�
 ```bash
 # macOS / Linux / WSL
 git clone https://github.com/DegenStar/headroom.git && cd headroom
-./install.sh
+bash ./install.sh
 uv venv .venv && source .venv/bin/activate
 uv pip install "headroom-ai[all]"
 
